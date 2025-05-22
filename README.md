@@ -1,10 +1,10 @@
 # Qilin
+
 ## LFT: League Finder & Team Builder
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/358e87fd-8247-4b56-81c4-4bda97e2b847" alt="Qilin Logo" width="200">
 </p>
-
 
 LFT revolutionizes team formation in competitive gaming. Our platform seamlessly connects players based on skill level, recent performance, and compatibility, using advanced algorithms.
 
@@ -24,7 +24,7 @@ Whether you're climbing the competitive ladder or seeking casual teammates, LFT 
 
 - [Individual Contribution](#individual-contribution)
 - [Technologies Used](#technologies-used)
-- [Usage](#usage)
+- [Usage](#how-to-run)
 - [Contributors](#contributors)
 
 ## Technologies Used
@@ -42,68 +42,116 @@ Whether you're climbing the competitive ladder or seeking casual teammates, LFT 
 - **Riot Games API**: An API that provides access to gaming data, allowing integration of game-related features.
 - **Next.js**: A React framework that enables server-side rendering and static site generation for improved performance.
 - **Turborepo**: A high-performance build system for JavaScript and TypeScript monorepos.
+- **Docker**: A platform designed to help developers build, share, and run container applications.
 
 ## Individual Contribution
 
 #### Suvan Sarkar
 
-1. Implemented Prisma as the ORM (Object-Relational Mapping) tool to simplify database access and management.
-2. Set up MongoDB as the database solution to store and retrieve application data in a flexible, scalable manner.
-3. Designed and developed the database models using Prisma to define the schema and relationships between entities.
-4. Integrated the Riot Games API to fetch and utilize relevant gaming data within the application.
-5. Structured the backend architecture to ensure modularity, separation of concerns, and maintainability.
-6. Utilized NestJS for building the backend application, ensuring a clean and organized code structure.
-7. Implemented Matchmaking page (for users to connect with players)
+- Implemented Prisma as the ORM (Object-Relational Mapping) tool to simplify database access and management.
+- Set up MongoDB as the database solution to store and retrieve application data in a flexible, scalable manner.
+- Designed and developed the database models using Prisma to define the schema and relationships between entities.
+- Integrated the Riot Games API to fetch and utilize relevant gaming data within the application.
+- Structured the backend architecture to ensure modularity, separation of concerns, and maintainability.
+- Utilized NestJS for building the backend application, ensuring a clean and organized code structure.
+- Implemented Matchmaking page (for users to connect with players).
+- Implemented CI/CD pipeline for automated testing and deployment.
+- Set up and configured Docker for containerization of the application.
+- Developed and implemented unit testing strategies to ensure code quality.
 
 #### Chaitanya Sikakolu
 
-1. Developed a secure login authentication system to ensure user privacy and protect sensitive information.
-2. Implemented user registration, login, and session management functionalities.
-3. Utilized appropriate authentication mechanisms such as JWT (JSON Web Tokens) or session-based authentication.
-4. Built a real-time chat feature using WebSocket technology to enable instant messaging between users.
-5. Designed and implemented the chat server and client components to facilitate seamless communication.
-6. Handled WebSocket connections, message broadcasting, and user presence management.
-7. Utilized Socket.io for real-time bidirectional event-based communication.
-8. Implement User Profile Page
+- Developed a secure login authentication system using JWT (JSON Web Tokens).
+- Implemented user registration, login, and session management functionalities.
+- Built secure authentication middleware and password encryption mechanisms.
+- Implemented User Profile Page with comprehensive user data management.
+- Configured Docker containerization for application deployment.
+
+#### Paritosh Tigga
+
+- Built real-time chat feature using WebSocket technology for instant messaging.
+- Designed and implemented chat server and client components for seamless communication.
+- Handled WebSocket connections, message broadcasting, and user presence management.
+- Utilized Socket.io for real-time bidirectional event-based communication.
+- Integrated Redis for optimized chat performance and message caching.
 
 #### Vinayak Anand
 
-1. Integrated the Stripe API to enable secure and reliable payment processing within the application.
-2. Implemented payment flows, including capturing user payment information, handling transactions, and managing subscriptions.
-3. Designed and developed the gamer dashboard on the frontend to provide a user-friendly interface for managing gaming activities.
-4. Created intuitive UI components and layouts to display relevant information and statistics for gamers.
-5. Implemented features such as game progress tracking, leaderboards, and user profiles within the gamer dashboard.
-6. Utilized React.js for building the frontend application, ensuring a clean and organized code structure.
-7. Implemented Tournament Pages
-8. Implemented Tournament Pages
+- Integrated the Stripe API to enable secure and reliable payment processing within the application.
+- Implemented payment flows, including capturing user payment information, handling transactions, and managing subscriptions.
+- Designed and developed the gamer dashboard on the frontend to provide a user-friendly interface for managing gaming activities.
+- Created intuitive UI components and layouts to display relevant information and statistics for gamers.
+- Implemented features such as game progress tracking, leaderboards, and user profiles within the gamer dashboard.
+- Utilized React.js for building the frontend application, ensuring a clean and organized code structure.
+- Implemented Tournament Pages.
+- Assisted in CI/CD setup and Docker configuration for deployment.
+- Developed unit tests to ensure application reliability.
 
 #### Piyush Singh
 
-1. Designed and developed an engaging and main landing page to attract and onboard users.
-2. Created visually appealing UI components and layouts using React.js and Tailwind CSS.
-3. Implemented responsive design techniques to ensure optimal viewing experience across different devices.
-4. Integrated the Redis API for building, deploying, and managing the chat functionality for scalable real-time communication.
-5. Utilized Redis as an in-memory data store to handle chat message storage and retrieval efficiently.
-6. Implemented caching mechanisms using Redis to improve application performance and reduce database load.
-7. Also, designed PPT & Video for evaluation.
-8. Implemented Landing Pages
+- Designed and developed an engaging and main landing page to attract and onboard users.
+- Created visually appealing UI components and layouts using React.js and Tailwind CSS.
+- Implemented responsive design techniques to ensure optimal viewing experience across different devices.
+- Utilized Redis as an in-memory data store to handle chat message storage and retrieval efficiently.
+- Designed PPT & Video for evaluation.
+- Implemented Landing Pages.
+- Set up Swagger API documentation for better developer experience.
 
-#### Sudip Halder
+#### Sushant Kuril
 
-1. Developed login pages for Super Admin and Staff.
-2. Created two distinct dashboards for different types of administrators.
-3. Implemented a page for managing staff and the ability to create new staff members with limited access.
-4. Added a panel to view user complaints and assign staff to resolve the issues.
-5. Developed a panel for staff administrators to resolve complaints.
+- Implemented video chat feature using WebRTC (Web Real-Time Communication) technology.
+- Developed WebRTC APIs for peer-to-peer video and audio communication channels.
+- Built signaling server infrastructure using Socket.io for connection management.
+- Implemented caching mechanisms using Redis to improve application performance and reduce database load.
+
+#### Mahesh Datta
+
+- Developed staff management system with role-based access control (RBAC).
+- Implemented RESTful API endpoints for staff CRUD operations with pagination.
+- Built staff dashboard with real-time monitoring and administrative controls.
+- Created staff onboarding workflows with authentication and profile management.
+- Implemented database optimization strategies for improved performance.
+
+#### Shrijeet Kumar
+
+- Developed tournament management system with dual-panel interfaces for users and admins.
+- Implemented tournament lifecycle management including registration and bracket generation.
+- Built tournament dashboard with real-time leaderboards and match tracking using React.js.
+- Created tournament administration panel with participant management and result validation.
 
 ## How to run
 
-Make sure you have docker installed on your desktop
+### Option 1: Using Docker (Recommended)
 
-And then simple run
+Make sure you have Docker installed on your desktop, then simply run:
 
 ```
-    docker compose up
+docker-compose up
+```
+
+### Option 2: Manual Setup
+
+For development or if you prefer to run without Docker:
+
+1. First, navigate to the frontend directory and install dependencies:
+
+```
+cd Apps/frontend
+npm i
+```
+
+2. Then, navigate to the backend directory and install dependencies:
+
+```
+cd ../Backend
+npm i
+```
+
+3. Move back to the root directory to start the application:
+
+```
+cd ../../
+docker-compose up
 ```
 
 ## Contributors
