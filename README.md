@@ -104,11 +104,11 @@ And then simple run
 
 ## Contributors
 
-- [Suvan Sarkar](https://github.com/suvansarkar)
-- [Chaitanya Sikakolu](https://github.com/sikakoluchaitanya)
-- [Vinayak Anand](https://github.com/vinayak-anand)
-- [Piyush Singh](https://github.com/piyush-bug)
-- [Paritosh Tigga](https://github.com/Overwatch10x)
-- [Mahesh Datta](https://github.com/Mahesh-git888)
-- [Shrijeet Kumar](https://github.com/Shrijeet14)
-- [Sushant Kuril](https://github.com/SushantKuril)
+- [Suvan Sarkar](https://github.com/suvansarkar) - S20220010220
+- [Chaitanya Sikakolu](https://github.com/sikakoluchaitanya) - S20220010044
+- [Vinayak Anand](https://github.com/vinayak-anand) - S20220010243
+- [Piyush Singh](https://github.com/piyush-bug) - S20220010204
+- [Paritosh Tigga](https://github.com/Overwatch10x) - S20220010164
+- [Mahesh Datta](https://github.com/Mahesh-git888) - S20220020258
+- [Sushant Kuril](https://github.com/SushantKuril) - S20220010219
+- [Shrijeet Kumar](https://github.com/Shrijeet14) - S20220020312
