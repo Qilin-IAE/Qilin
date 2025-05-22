@@ -1,6 +1,10 @@
-![Qilin Logo](https://github.com/user-attachments/assets/358e87fd-8247-4b56-81c4-4bda97e2b847)# Qilin
-
+# Qilin
 ## LFT: League Finder & Team Builder
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/358e87fd-8247-4b56-81c4-4bda97e2b847" alt="Qilin Logo" width="200">
+</p>
+
 
 LFT revolutionizes team formation in competitive gaming. Our platform seamlessly connects players based on skill level, recent performance, and compatibility, using advanced algorithms.
 
