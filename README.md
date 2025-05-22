@@ -108,4 +108,7 @@ And then simple run
 - [Chaitanya Sikakolu](https://github.com/sikakoluchaitanya)
 - [Vinayak Anand](https://github.com/vinayak-anand)
 - [Piyush Singh](https://github.com/piyush-bug)
-- [Sudip Halder](https://github.com/sudipme)
+- [Paritosh Tigga](https://github.com/Overwatch10x)
+- [Mahesh Datta](https://github.com/Mahesh-git888)
+- [Shrijeet Kumar](https://github.com/Shrijeet14)
+- [Sushant Kuril](https://github.com/SushantKuril)
