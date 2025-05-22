@@ -1,4 +1,4 @@
-# Qilin
+![Qilin Logo](https://github.com/user-attachments/assets/358e87fd-8247-4b56-81c4-4bda97e2b847)# Qilin
 
 ## LFT: League Finder & Team Builder
 
